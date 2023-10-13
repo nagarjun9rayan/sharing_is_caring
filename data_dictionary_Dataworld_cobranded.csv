@@ -1,0 +1,49 @@
+name_application_key,application_key,definition_application_id_primary_key
+mvar1,credit_worthiness_score,Credit worthiness score calculated on the basis of borrower's credit history
+mvar2,credit_enquiry_score,A score calculated based on the number and riskiness of credit enquiries made to any lender by a borrower
+mvar3,severity_default_any_loan,"Severity of default by the borrower on any loan(s). Severity is a function of amount, time since default and number of defaults"
+mvar4,severity_default_auto_loan,"Severity of default by the borrower on auto loan(s). Severity is a function of amount, time since default and number of defaults"
+mvar5,sev_default_educ_loan,"Severity of default by the borrower on education loan(s). Severity is a function of amount, time since default and number of defaults"
+mvar6,min_credit_revolving_ccard,Minimum of credit available on all revolving credit cards (in $)
+mvar7,min_credit_active_ccard,Maximum of credit available on all active credit lines (in $)
+mvar8,min_credit_act_rev_ccard,Maximum of credit available on all active revolving credit cards (in $)
+mvar9,sum_missed_pymnt,Sum of available credit on credit cards that the borrower has missed 1 payment (in $)
+mvar10,total_credit_available,Total amount of credit available on accepted credit lines (in $)
+mvar11,dues_collect_post_default,Amount of dues collected post default where due amount was more than 500 (in $)
+mvar12,amount_due_active_cc,Sum of amount due on active credit cards (in $)
+mvar13,amount_paid_prev_yr,Annual amount paid towards all credit cards during the previous year (in $)
+mvar14,annual_income,Annual income (in $)
+mvar15,value_assets_of_borrower,Estimated market value of a properety owned/used by the borrower (in $)
+mvar16,num_revolving_ccard,Number of active revolving credit cards on which full credit limit is utilized by the borrower
+mvar17,num_active_ccard,Number of active credit cards on which full credit limit is utilized by the borrower
+mvar18,num_active_cred_lines,Number of active credit lines on which full credit limit is utilized by the borrower
+mvar19,num_active_ccard_75perc,Number of active credit cards on which atleast 75% credit limit is utilized by the borrower
+mvar20,num_active_cred_lines_75,Number of active credit lines on which atleast 75% credit limit is utilized by the borrower
+mvar21,avg_ulitlization_revolv_cc,Average utilization of active revolving credit card loans (%)
+mvar22,avg_ulitlization_cline_2yr,Average utilization of line on all active credit lines activated in last 2 years (%)
+mvar23,avg_ulitlization_cline_1yr,Average utilization of line on all active credit cards activated in last 1 year (%)
+mvar24,avg_ulitliz_cc_miss_6m,Average utilization of line on credit cards on which the borrower has missed 1 payment during last 6 months (%)
+mvar25,avg_tenure_revolv_ccard,Average tenure of active revolving credit cards (in days)
+mvar26,tenure_oldes_active_ccard,Tenure of oldest credit card among all active credit cards (in days)
+mvar27,tenure_oldes_rev_ccard,Tenure of oldest revolving credit card among all active revolving credit cards (in days)
+mvar28,num_days_last_miss_pay,Number of days since last missed payment on any credit line
+mvar29,tenure_oldes_cred_line,Tenure of oldest credit line (in days)
+mvar30,max_ten_auto_loan,Maximum tenure on all auto loans (in days)
+mvar31,max_ten_edu_loan,Maximum tenure on all education loans (in days)
+mvar32,sum_tenure_ccard,Sum of tenures (in months) of active credit cards
+mvar33,duraction_stay_curr_add,Duration of stay at the current residential address (in years)
+mvar34,num_active_cline_6m_miss,Number of active credit lines over the last 6 months on which the borrower has missed 1 payment
+mvar35,num_active_cline_2y_miss,Number of revolving credit cards over the last 2 years on which the borrower has missed 1 payment
+mvar36,num_active_clines,Number of active credit lines
+mvar37,num_cc_2y_tenure,Number of credit cards with an active tenure of at least 2 years
+mvar38,num_clines_activated_2y,Number of credit lines activated in last 2 years
+mvar39,num_clines_delinquency,Number of credit lines on which the borrower has current delinquency
+mvar40,utilization_line_edu_loan,Utilization of line on active education loans (%)
+mvar41,utilization_line_auto_loan,Utilization of line on active auto loans (%)
+mvar42,financ_stress_index,"Financial stress index of the borrower. This index is a function of collection trades, bankruptcies files, tax liens invoked, etc. "
+mvar43,num_clines_no_miss_pymt,"Number of credit lines on which the borrower has never missed a payment in last 2 yrs, yet considered as high risk loans based on market prediction of economic scenario"
+mvar44,ratio_max_sum_amnt_due,Ratio of maximum amount due on all active credit lines and sum of amounts due on all active credit lines
+mvar45,mortloans_miss_pymt,Number of mortgage loans on which the borrower has missed 2 payments
+mvar46,autoloans_miss_pymt,Number of auto loans on which the borrower has missed 2 payments
+mvar47,product_charge_lending,Type of product that the applicant applied for. (C = Charge; L = Lending)
+default_ind,default_ind,Indicator for default
